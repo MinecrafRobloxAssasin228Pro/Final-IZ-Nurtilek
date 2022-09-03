@@ -37,7 +37,7 @@
     margin: 9px;
     cursor: pointer;
     font-size: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     transition: .4s;
     /* background: linear-gradient(45deg, #462d0c 33%, #ffe998 66%);
     -webkit-background-clip: text;
@@ -50,9 +50,11 @@
 
 .footext ul li:hover{
     background-color: rgb(175, 57, 235);
-    box-shadow: 10px 5px 2px rgb(117, 39, 156);
 }
 
 .footext .ser{
     color: rgba(0, 0, 0, 0.76);
 }
+
+@import "fAdaptation.css";
+

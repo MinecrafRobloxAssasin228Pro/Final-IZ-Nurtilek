@@ -1,7 +1,7 @@
 export const delieverMenu = [
     {
         id: 1,
-        value: 'Полуфабрикаты',
+        value: 'Полу-фабрикаты',
         route:'semimanufactures'
     },
     {

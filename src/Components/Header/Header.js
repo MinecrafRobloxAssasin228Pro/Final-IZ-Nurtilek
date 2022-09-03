@@ -13,7 +13,10 @@ const Header = ()=>{
             <div className="nav">
                 <ul className="nav-logo">
                    <li>
-                       <Link to="/">ИZЮМ</Link>
+                       <Link to="/">
+                           <h1 className='nav-logo_h1'>IZЮМ</h1>
+                       </Link>
+
                    </li>
                 </ul>
                 <ul className="nav-flex">
@@ -21,34 +24,11 @@ const Header = ()=>{
                         <Dropdown title='Меню доставки' options={delieverMenu} />
                     </li>
                     <li>
-                        <Link to='/restaurant'>
-                            Фотоотчеты
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to='/Banket'>
-                            Банкеты 
-                        </Link>
-                    </li>
-                    <li>
                         <Dropdown title='События' options={eventsMenu} />
                     </li>
-                    <li>
-                        <Link to="/Vacancy">
-                            Вакансии
-                        </Link>
-                    </li>
+
                 </ul>
-                <div className="btn">
-                   <ul>
-                   <button>Забронировать</button>
-                    <li>
-                        <Link to="/">
-                           <i class="fas fa-shopping-bag"></i>
-                        </Link>
-                    </li>
-                   </ul>
-                </div>
+
             </div>    
         </>
     )

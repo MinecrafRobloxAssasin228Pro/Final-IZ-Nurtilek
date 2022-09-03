@@ -9,15 +9,15 @@ const Footter = ()=>{
             </svg>
                 <div className="footext">
                     <h1>IZЮM</h1>
-                    <p style={{paddingTop: '50px'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sapiente cumque quos, Lorem ipsum dolor sit amet consectetur adipisicing elit.?</p>
-                    <p>osinvsnuodnvnsdovndv.</p>
+                    <p style={{paddingTop: '50px'}}>Права не защищены </p>
+                    <p>:P</p>
                     <ul>
                         <li><i class="fab fa-instagram"></i></li>
                         <li><i class="fab fa-facebook"></i></li>
                         <li><i class="fab fa-vk"></i></li>
                         <li><i class="fab fa-twitter"></i></li>
                     </ul>
-                    <p className="ser" style={{paddingBottom: '30px'}}>@ 2021 Greateble IZUM Osh restoraunt</p>
+                    <p className="ser" style={{paddingBottom: '30px'}}>@ 2022 Nurtilek A.</p>
                 </div>
             </div> 
         </>

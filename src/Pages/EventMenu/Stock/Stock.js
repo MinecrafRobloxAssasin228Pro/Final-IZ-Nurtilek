@@ -10,12 +10,7 @@ const Stock = () => {
                 <h1><i style={{paddingRight:'10px'}} class="fas fa-gifts"></i> Акции</h1>
                 <hr className="hr2 d" />
                 <div className="scs">
-                    <div className="stockcard1">
-                    </div>
-                    <div className="stockcard2">
-                    </div>
-                    <div className="stockcard3">
-                    </div>
+
                 </div>
             </div>
         </>

@@ -6,7 +6,7 @@
     opacity: 0;
     transition: 0.2s ease-in-out;
     object-fit: cover;
-    top: -100;
+
 }
 .slider_img.active{
     opacity: 1;

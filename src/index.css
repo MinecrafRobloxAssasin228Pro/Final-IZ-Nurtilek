@@ -1,7 +1,13 @@
 @import url('https://fonts.gooleapis.com/css2?family=ABeeZee&display=swap');
 
+
 body{
     margin: 0;
     font-family: 'ABeeZee', sans-serif;
     background-color: rgb(17, 17, 17);
+    width: 100%;
+}
+
+html{
+    width: 100%;
 }

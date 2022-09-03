@@ -1,3 +1,4 @@
+
 .card-d{
     display: flex;
     justify-content: space-around;
@@ -18,11 +19,11 @@
     height: 400px;
     border-radius: 15px;
     box-shadow: 0 5px 15px black;
-    text-align: center;  
-    background: url('https://img1.akspic.ru/previews/1/9/7/6/16791/16791-muzyka-audio-tehnologii-tanec-mikrofon-x750.jpg') center / cover;
+    text-align: center;
+    margin: 10px;
+
 }
-.card-d .card2{
-    background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d0/4b/90/caption.jpg?w=900&h=-1&s=1")center/cover;
+ .card2{
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -32,10 +33,10 @@
     height: 400px;
     border-radius: 15px;  
     box-shadow: 0 5px 15px black;
-    text-align: center; 
+    text-align: center;
+     margin: 10px;
 }
-.card-d .card3{
-    background: url('https://r-ugolok.ru/wp-content/uploads/2020/03/1-10.jpg')center/cover;
+.card3{
     position: relative;
     display: inline-block;
     box-shadow: 0 5px 15px black;
@@ -45,46 +46,47 @@
     width: 400px;
     height: 400px;
     border-radius: 15px;  
-    text-align: center; 
+    text-align: center;
+    margin: 10px;
 }
 
 /* #FFD700 */
 
 .card1:before {
     content: "";
-    background: linear-gradient(90deg, #92929234,  #e4e3e334, #888888d0);
-    height: 400px;
-    width: 10%;
+    background: url('https://img1.akspic.ru/previews/1/9/7/6/16791/16791-muzyka-audio-tehnologii-tanec-mikrofon-x750.jpg') center / cover;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0px;
-    left: -230px;
-    transform: skewX(-45deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .card1:hover:before {
-    left: 150%;
-    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    transition-duration: .6s ;
+
 }
 .card1 h1{
-    text-shadow: 0 0 50px black;
     margin: 0;
     padding-top: 40%;
     font-size: 45px;
 }
 .card2:before {
     content: "";
-    background: linear-gradient(90deg, #92929234,  #e4e3e334, #888888d0);
-    height: 400px;
-    width: 10%;
+    background: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d0/4b/90/caption.jpg?w=900&h=-1&s=1")center/cover;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0px;
-    left: -230px;
-    transform: skewX(-45deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .card2:hover:before {
-    left: 150%;
-    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    transition: .6s;
 }
 
 .card2 h1{
@@ -95,22 +97,147 @@
 }
 .card3:before {
     content: "";
-    background: linear-gradient(90deg, #92929234,  #e4e3e334, #888888d0);
-    height: 400px;
-    width: 10%;
+    background:url('https://img4.goodfon.ru/wallpaper/nbig/8/e4/bitseps-dumbbells-bodibilder-weight-trenirovka-training-body.jpg')center/cover;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0px;
-    left: -230px;
-    transform: skewX(-45deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .card3:hover:before {
-    left: 150%;
-    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    transition: .6s;
 }
 .card3 h1{
-    text-shadow: 0 0 50px black;
     margin: 0;
     padding-top: 40%;
     font-size: 45px;
+}
+
+@media screen and (max-width: 840px) {
+    .card-d{
+        margin-top: 600px;
+    }
+    .card1{
+        width: 300px;
+        height: 300px;
+    }
+    .card2{
+        width: 300px;
+        height: 300px;
+    }
+    .card3{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .card-d{
+        margin-top: 570px;
+    }
+    .card1{
+        width: 250px;
+        height: 250px;
+    }
+    .card2{
+        width: 250px;
+        height: 250px;
+    }
+    .card3{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .card1{
+        width: 200px;
+        height: 200px;
+    }
+    .card2{
+        width: 200px;
+        height: 200px;
+    }
+    .card3{
+        width: 200px;
+        height: 200px;
+    }
+    .card1 h1{
+        font-size: 30px;
+    }
+    .card2 h1{
+        font-size: 30px;
+    }
+    .card3 h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .card-d{
+        margin-top: 550px;
+    }
+    .card1{
+        width: 350px;
+        height: 250px;
+    }
+    .card2{
+        width: 350px;
+        height: 250px;
+    }
+    .card3{
+        width: 350px;
+        height: 250px;
+    }
+    .card1 h1{
+        font-size: 40px;
+    }
+    .card2 h1{
+        font-size: 40px;
+    }
+    .card3 h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .card-d{
+        margin-top: 530px;
+    }
+    .card1{
+        width: 310px;
+        height: 220px;
+    }
+    .card2{
+        width: 310px;
+        height: 220px;
+    }
+    .card3{
+        width: 310px;
+        height: 220px;
+    }
+    .card1 h1{
+        font-size: 40px;
+    }
+    .card2 h1{
+        font-size: 40px;
+    }
+    .card3 h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .card1{
+        margin-left: 15px;
+    }
+    .card2{
+        margin-left: 15px;
+    }
+    .card3{
+        margin-left: 15px;
+    }
 }

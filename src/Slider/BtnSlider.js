@@ -15,6 +15,6 @@ const BtnSlider = ({moveSlide , direction})=>{
          </button>
         </>
     )
-}
+};
 
 export default BtnSlider;
